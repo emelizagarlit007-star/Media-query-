@@ -135,143 +135,6 @@
         }
 
         /* Small Mobile */
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beautiful Flowers Guide by Garlit</title>
-    <style>
-        /* Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #fef9f8;
-            color: #333;
-            line-height: 1.7;
-        }
-
-        /* Header Style */
-        .page-header {
-            background: linear-gradient(135deg, #ff6b9d, #fec8d8);
-            color: white;
-            text-align: center;
-            padding: 2.5rem;
-        }
-
-        .page-header h1 {
-            font-size: 2.4rem;
-            margin-bottom: 0.5rem;
-        }
-
-        /* Grid Layout */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 28px;
-            padding: 35px;
-            max-width: 1250px;
-            margin: 0 auto;
-        }
-
-        /* Flower Card Style */
-        .flower-card {
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            padding: 28px;
-            transition: all 0.3s ease;
-        }
-
-        .flower-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-        }
-
-        .flower-card h3 {
-            color: #ff6b9d;
-            margin-bottom: 15px;
-            font-size: 1.5rem;
-            text-align: center;
-            border-bottom: 2px solid #ffe6ef;
-            padding-bottom: 10px;
-        }
-
-        /* Style for Flower Images */
-        .flower-img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-bottom: 15px;
-        }
-
-        /* Wide Section - Spans All Columns */
-        .intro-section {
-            grid-column: 1 / -1;
-            background-color: #fff0f5;
-            border-left: 7px solid #ff6b9d;
-            padding: 32px;
-            border-radius: 15px;
-        }
-
-        .intro-section h2 {
-            color: #e74c82;
-            margin-bottom: 18px;
-            font-size: 1.9rem;
-        }
-
-        /* Footer Style */
-        .page-footer {
-            background-color: #ff6b9d;
-            color: white;
-            text-align: center;
-            padding: 22px;
-            margin-top: 20px;
-        }
-
-        /* ------------------------------
-        MEDIA QUERIES - Responsive
-        ------------------------------ */
-
-        /* Tablets */
-        @media (max-width: 992px) {
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
-                padding: 25px;
-                gap: 22px;
-            }
-            .page-header h1 {
-                font-size: 2rem;
-            }
-        }
-
-        /* Mobile Phones */
-        @media (max-width: 768px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-                padding: 18px;
-            }
-            .page-header h1 {
-                font-size: 1.7rem;
-            }
-            .flower-card {
-                padding: 22px;
-            }
-            .intro-section {
-                padding: 22px;
-            }
-            .intro-section h2 {
-                font-size: 1.6rem;
-            }
-        }
-
-        /* Small Mobile */
         @media (max-width: 480px) {
             .page-header {
                 padding: 1.8rem;
@@ -305,35 +168,35 @@
         <!-- Rose -->
         <div class="flower-card">
             <h3>🌹 Rose</h3>
-            <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=500&h=300&fit=crop" alt="Rose Flower" class="flower-img">
+            <img src="https://images.squarespace-cdn.com/content/v1/600f3bbdaff7cf5bcd243a2d/1755265339966-4JQM8CTV614MUFPBIIB0/3C787FAA-BEF5-456D-844C-7D6EA09D8A6E.jpeg?format=1500w" alt="Rose Flower" class="flower-img">
             <p>The rose is often called the "Queen of Flowers". It is famous for its beautiful shape and sweet scent. Roses come in many colors like red, pink, white, and yellow. Red roses usually mean love and romance, while white roses stand for purity and peace.</p>
         </div>
 
         <!-- Daisy -->
         <div class="flower-card">
             <h3>🌼 Daisy</h3>
-            <img src="https://images.unsplash.com/photo-1596767965309-371275354262?w=500&h=300&fit=crop" alt="Daisy Flower" class="flower-img">
+            <img src="https://wayanadantouchgarden.com/cdn/shop/files/daisyviolet_28e559fc-5575-46fb-96ed-545752b68772.jpg?v=1756481167" alt="Daisy Flower" class="flower-img">
             <p>Daisies are simple and cheerful flowers. They have white petals around a bright yellow center. They are known for being easy to grow and they look very happy. Daisies are symbols of innocence, new beginnings, and good luck.</p>
         </div>
 
         <!-- Sunflower -->
         <div class="flower-card">
             <h3>🌻 Sunflower</h3>
-            <img src="https://images.unsplash.com/photo-1596768422592-24019450288d?w=500&h=300&fit=crop" alt="Sunflower" class="flower-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjGPZt9B725P9d1GFEUI3Jy7zReLgQaoWz8tACdXwy1omQqAEVQJLHb5qYgz4A0UNNpyVbJoHplcmYNXti4zESsx4toARc9xKgg2NuAIFftfe2Q&s=10&ec=121657058" alt="Sunflower" class="flower-img">
             <p>Sunflowers are tall, bright flowers that look like the sun. They have big yellow petals and a dark center. They are called sunflowers because they turn their faces to follow the sun all day long. They symbolize happiness, loyalty, and positive energy.</p>
         </div>
 
         <!-- Dahlia -->
         <div class="flower-card">
             <h3>🏵️ Dahlia</h3>
-            <img src="https://images.unsplash.com/photo-1596768422592-24019450288d?w=500&h=300&fit=crop" alt="Dahlia Flower" class="flower-img">
+            <img src="https://static.where-e.com/United_States/Dahlia-Garden_bb9876343650d8828b33c1ed38857c0a.jpg" alt="Dahlia Flower" class="flower-img">
             <p>Dahlias are beautiful flowers with many layers of petals, making them look like big, colorful balls. They come in many colors like pink, purple, red, and white. Dahlias symbolize elegance, dignity, and creativity. They are perfect for making gardens look very fancy.</p>
         </div>
 
         <!-- Tulip -->
         <div class="flower-card">
             <h3>🌷 Tulip</h3>
-            <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=500&h=300&fit=crop" alt="Tulip Flower" class="flower-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gMvI20iLKeddsmE0uUa4fg1Tt0nvm9tIVBmFQOMzzr4yVzIL3SnQJvU&s=10" alt="Tulip Flower" class="flower-img">
             <p>Tulips are simple but very lovely flowers. They have cup-shaped blooms and grow in almost every color imaginable. They are one of the most popular flowers in spring. Tulips stand for perfect love, fame, and elegance. They look great in gardens and flower arrangements.</p>
         </div>
 
@@ -346,40 +209,4 @@
 
 </body>
 </html>
-            <h3>🌼 Daisy</h3>
-            <p>Daisies are simple and cheerful flowers. They have white petals around a bright yellow center. They are known for being easy to grow and they look very happy. Daisies are symbols of innocence, new beginnings, and good luck.</p>
-        </div>
 
-        <!-- Sunflower -->
-        <div class="flower-card">
-            <h3>🌻 Sunflower</h3>
-            <p>Sunflowers are tall, bright flowers that look like the sun. They have big yellow petals and a dark center. They are called sunflowers because they turn their faces to follow the sun all day long. They symbolize happiness, loyalty, and positive energy.</p>
-        </div>
-
-        <!-- Dahlia -->
-        <div class="flower-card">
-            <h3>🏵️ Dahlia</h3>
-            <p>Dahlias are beautiful flowers with many layers of petals, making them look like big, colorful balls. They come in many colors like pink, purple, red, and white. Dahlias symbolize elegance, dignity, and creativity. They are perfect for making gardens look very fancy.</p>
-        </div>
-
-        <!-- Lily -->
-        <div class="flower-card">
-            <h3>💮 Lily</h3>
-            <p>Lilies are elegant and graceful flowers. They have large, beautiful blooms and grow in many colors such as white, pink, orange, and purple. Lilies represent purity, beauty, and devotion. They are often used in weddings and special ceremonies because of their elegant look.</p>
-        </div>
-
-        <!-- Tulip -->
-        <div class="flower-card">
-            <h3>🌷 Tulip</h3>
-            <p>Tulips are simple but very lovely flowers. They have cup-shaped blooms and grow in almost every color imaginable. They are one of the most popular flowers in spring. Tulips stand for perfect love, fame, and elegance. They look great in gardens and flower arrangements.</p>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="page-footer">
-        <p>&copy; 2026 Flowers Guide by Melz | All Rights Reserved</p>
-    </footer>
-
-</body>
-</html>
